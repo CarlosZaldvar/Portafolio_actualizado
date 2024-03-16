@@ -5,7 +5,6 @@ import { ViteMinifyPlugin } from 'vite-plugin-minify';
 import htmlPurge from 'vite-plugin-purgecss';
 import handlebars from 'vite-plugin-handlebars';
 
-import hbsContext  from './context/context';
 export default defineConfig(
     {
         base: '/portafolio_actualizado/',
